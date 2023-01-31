@@ -7,13 +7,27 @@
   pointer-events: none;
 }
 
+.logo-box {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
 .logo {
   width: 90%;
   height: 100%;
 
   display: grid;
   place-items: center;
-  min-height: 100vh;
+}
+
+#wrapper {
+  display: table;
+}
+
+#cell {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 @media (prefers-reduced-motion: no-preference) {
