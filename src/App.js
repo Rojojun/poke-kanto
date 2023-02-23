@@ -6,6 +6,7 @@ function App() {
     <div id="wrapper">
       <div className="logo-box">
         <img src={logo} className="logo" alt="logo" />
+        <p>HELLO</p>
       </div>
     </div>
   );
