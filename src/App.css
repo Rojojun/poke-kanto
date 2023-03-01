@@ -11,14 +11,24 @@
   text-align: center;
   display: flex;
   justify-content: center;
+  background-color: gray;
 }
 
 .logo {
+  margin-top: 15px;
+  margin-bottom: 15px;
+
   width: 90%;
   height: 100%;
 
   display: grid;
   place-items: center;
+}
+
+.inner-logo-box {
+  text-align: center;
+  display: center;
+  justify-content: center;
 }
 
 #wrapper {
