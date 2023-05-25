@@ -2,6 +2,7 @@ import innerlogo from "../asset/logo-2.GIF";
 import logo from "../asset/logo.png";
 
 import React from "react";
+import Timer from "./Timer";
 
 export default function MainLogo() {
   return (
@@ -20,6 +21,7 @@ export default function MainLogo() {
               position: "absolute",
             }}
           >
+            <Timer></Timer>
             <img
               src={innerlogo}
               className="img"
